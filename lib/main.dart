@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:jujunmunawar_2306148_4/Pages/login_pages.dart';
-import 'package:jujunmunawar_2306148_4/Widget/quest_widgets.dart';
-import 'package:jujunmunawar_2306148_4/Widget/header_widget.dart';
-import 'package:jujunmunawar_2306148_4/Widget/chip_widgets.dart';
+import 'package:Adityapermana_2306162_UTS/Pages/login_pages.dart';
+import 'package:Adityapermana_2306162_UTS/Widget/quest_widgets.dart';
+import 'package:Adityapermana_2306162_UTS/Widget/header_widget.dart';
+import 'package:Adityapermana_2306162_UTS/Widget/chip_widgets.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -46,10 +47,10 @@ class Home_page extends StatelessWidget {
           "Adventure Guild",
           style: TextStyle(
             fontWeight: .bold,
-            color: const Color.fromARGB(255, 242, 238, 237),
+            color: const Color.fromARGB(255, 44, 9, 217),
           ),
         ),
-        backgroundColor: Colors.purpleAccent,
+        backgroundColor: const Color.fromARGB(255, 222, 8, 8),
       ),
       body: Padding(
         padding: const EdgeInsetsGeometry.all(12),
@@ -66,8 +67,8 @@ class Home_page extends StatelessWidget {
               spacing: 10,
               children: [
                 ChipWidgets(color: Colors.red, label: "HP :", icon: Icons.favorite, value: 100),
-                ChipWidgets(color: Colors.blue, label: "MP :", icon: Icons.flash_on, value: 50),
-                ChipWidgets(color: Colors.green, label: "EXP :", icon: Icons.star, value: 2000),
+                ChipWidgets(color: Colors.blue, label: "MP :", icon: Icons.watch, value: 50),
+                ChipWidgets(color: Colors.yellow, label: "EXP :", icon: Icons.square, value: 2000),
               ],
             ),
             Text("Quest List "),
@@ -76,21 +77,21 @@ class Home_page extends StatelessWidget {
               spacing: 15,
               children: [
                 QuestWidget(
-                  quest: "Memburu 10 Sucubus ",
-                  cost: "Reward : Speell Mantra Legendary",
-                  textColor: Colors.black,
+                  quest: "Memburu 5 WIBU",
+                  cost: "Reward : MANIAC",
+                  textColor: const Color.fromARGB(255, 234, 7, 7),
                   icon: Icons.task_alt
                 ),
                 QuestWidget(
-                  quest: "Berburu  5 Serapine ",
-                  cost: "Reward : 10.000 EXP dan 5 orb",
-                  textColor: Colors.black,
+                  quest: "Berburu  8 GAY ",
+                  cost: "Reward : SAVAGE ",
+                  textColor: const Color.fromARGB(255, 227, 7, 44),
                   icon: Icons.task_alt
                 ),
                 QuestWidget(
-                  quest: "Berburu raja iblis ",
-                  cost: "Reward : Pedang Legendaris",
-                  textColor: Colors.black,
+                  quest: "Berburu 10 LESBI ",
+                  cost: "Reward :  Legendary",
+                  textColor: const Color.fromARGB(255, 217, 9, 9),
                   icon: Icons.task_alt
                 )
               ],

@@ -14,7 +14,7 @@ class HeaderWidget extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [const Color.fromARGB(255, 6, 175, 59), const Color.fromARGB(255, 166, 4, 150)],
+          colors: [const Color.fromARGB(255, 100, 6, 232), const Color.fromARGB(255, 2, 80, 34)],
           begin: .topStart,
           end: .bottomEnd
         ),
